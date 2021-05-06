@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho 2 – DPW</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/referencias.css">
+</head>
+<body>
+    <!--MENU DE NAVEGAÇÃO-->
+    <nav class="navbar">
+        <div>
+            <a href="#">
+                <img class="logo" src="imagens/ow_logo.png" alt="Logo Overwatch">
+            </a>
+        </div>
+        <ul class="navlinks">
+            <li class="list-item"><a href="index.html" target="_self">Overwatch Store</a></li>
+            <li class="list-item"><a href="origem.html" target="_self">Origem</a></li>
+            <li class="list-item"><a href="quiz.html" target="_self">Quiz</a></li>
+            <li class="list-item"><a href="referencias.html" target="_self">Referências</a></li>
+        </ul>
+    </nav>
+
+    <main class="referencias">
+        <!--REFERÊNCIAS-->
+        <h2>Referências</h2>
+        <p>Nós da Overwatch Store separamos também conteúdo relacionado ao jogo que achamos que você vai gostar. Veja mais abaixo:</p>
+
+        <section>
+            <!--OVERWATCH LEAGUE-->
+            <div class="column" style="background-color:#aaa;">
+                <h2>Overwatch League</h2>
+                <img class="imgref" id="img1" onmouseover="setNewImg()"  onmouseout="setOldImg()" src="imagens/owl.jpg" alt="">
+                <p>Se você gosta de e-sports, não deixe de assistir à quarta temporada da Overwatch League. Você ainda ganha 5 tokens a cada 1 hora de partidas assistidas! Clique <a href="https://overwatchleague.com/en-us" target="_blank">aqui</a> para saber mais.</p>
+            </div>
+            
+            <!--LONDON CALLING-->
+            <div class="column" style="background-color:#bbb;">
+                <h2>Tracer - London Calling</h2>
+                <img class="imgref" id="img2" onmouseover="setNewImg2()"  onmouseout="setOldImg2()" src="imagens/tracer.jpg" alt="Capa do quadrinho London Calling">
+                <p>Para os amantes do lore de Overwatch, o quadrinho "Tracer - London Calling", escrito por Mariko Tamari, foca na história da personagem Tracer após o fim da organização Overwatch. Clique <a href="https://playoverwatch.com/en-us/media/stories/tracer-london-calling-1/" target="_blank">aqui</a> para ler.</p>
+            </div>
+        </section>
+
+        <section>
+            <!--LOFI-->
+            <div class="column" style="background-color:#aaa;">
+                <h2>Overwatch Lofi</h2>
+                <img class="imgref" id="img3" onmouseover="setNewImg3()"  onmouseout="setOldImg3()" src="imagens/lofi.jpg" alt="Lofi">
+                <p>Quer uma trilha sonora perfeita para jogar Overwatch ou até mesmo para estudar? Desfrute da seleção <span class="tooltip">lofi<span class="tooltiptext">Lo-fi (atualmente conhecido como lo-fi hip hop) é um estilo de produção musical que usa técnicas de gravação de baixa fidelidade (low fidelity)</span></span> criada pela Overwatch League! Clique <a href="https://open.spotify.com/album/2Ka8QpE2XUUjL4vOQihkJH" target="_blank">aqui</a> para ouvir.</p> 
+            </div>
+            
+            <!--JOGABILIDADE-->
+            <div class="column" style="background-color:#bbb;">
+                <h2>Dicas de Jogabilidade</h2>
+                <img class="imgref" id="img4" onmouseover="setNewImg4()"  onmouseout="setOldImg4()" src="imagens/gameplay2.jpg" alt="">
+                <p>Se você está aprendendo a jogar ou quer melhorar suas habilidades, esse conteúdo aqui é especial para você! Separamos um dos melhores canais de Overwatch com as melhores dicas para você aperfeiçoar as suas skills e conhecer novos truques e estratégias de cada herói e mapa do jogo. Clique <a href="https://youtube.com/c/KarQGames" target="_blank">aqui</a> para saber mais.</p>
+            </div>
+        </section>
+    </main>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

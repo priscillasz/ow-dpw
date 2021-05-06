@@ -1,0 +1,166 @@
+    /*-------------ORIGEM-------------*/
+.origem {
+    width: 1000px;
+    padding: 10px;
+    margin: auto;
+    max-width: 70%;
+}
+
+#origemtitle {
+    color: black;
+    margin: 35px;
+    margin-bottom: -10px;
+}
+
+.a {
+    width: 400px;
+    border: 1px solid #C8C8C8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#sobre {
+    font-size: 40px;
+    margin-bottom: -10px;
+}
+
+.b li {
+    list-style-type: lower-roman;
+}
+
+img {
+    width: 100%;
+    padding: 0 10px 0 0;
+}
+
+.img3 {
+    display: block;
+    width: 100%;
+}
+
+.img4 {
+    width: 55%;
+}
+
+.img5 {
+    float: right;
+    width: 45%;
+    margin-left: 13px;
+}
+
+.img6 {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.legenda {
+    font-style: italic;
+    font-size: 18px;
+}
+
+q {
+    font-style: oblique;
+}
+
+#tabela {
+    text-align: center;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+table {
+    width: 70%;
+    border-spacing: 5px;
+    text-align: center;
+}
+
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+table, th, td {
+    border: 1px solid #D3D3D3;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 12px;
+}
+
+tr:nth-child(even) {
+    background-color: #E8E8E8;
+}
+
+hr {
+    border-top: 1px solid #F20519;
+}
+
+.c li {
+    list-style-type: square;
+}
+
+.d li {
+    list-style-type: square;
+}
+
+.e {
+    border: 1px solid #D3D3D3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 260px;
+}
+
+.e li:hover {
+    color: #D9303E;
+}
+
+    /*---------CAROUSEL----------*/
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* /* On smaller screens, decrease text size *
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+} */

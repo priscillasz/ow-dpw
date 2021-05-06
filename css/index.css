@@ -1,0 +1,62 @@
+    /*-------------FULL PAGE IMAGE-----------*/
+.bg {
+    /* The image used */
+    background-image: url("imagens/1820127.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    /*-------------INDEX-------------*/
+.index {
+    width: 900px;
+    padding: 10px;
+    margin: auto;
+}
+
+.sobre {
+    text-align: center;
+    color: black;
+}
+
+.sobrep {
+    font-style: italic;
+}
+
+.sobrep:hover {
+    color: #0477BF;
+}
+
+.sobrep::first-letter {
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+
+.shineesback {
+    font-weight: 900;
+}
+
+.ee {
+    font-size: 38px;
+}
+
+.imgdcm {
+    width: 40%;
+    float: left;
+    margin-top: 8px;
+}
+
+section {
+    border: 1px solid #C8C8C8;
+}
+
+section p {
+    font-size: 40px;
+    text-align: center;
+}

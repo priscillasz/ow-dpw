@@ -1,0 +1,71 @@
+/*-------------QUIZ-------------*/
+.quiz {
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+
+.campoquiz {
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.pergunta {
+    font-weight: bold;
+    color: #0477BF;
+}
+
+li {
+    color: black;
+}
+
+input, select, textarea, .campo input[type="text"] {
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 16px;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+.campo select, .campo textarea, .campo input[type="text"] {
+    padding: 0.2em;
+    border: 1px solid #105773;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+textarea {
+    width: 320px;
+}
+
+.campo select:focus, .campo textarea:focus, .campo input[type="text"] {
+    background: #f7c7c7;
+}
+
+button {
+    border-radius: 20px;
+}
+
+.botao {
+    background-color: #0477BF;
+    border: 2px solid #0477BF;
+    color: white;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background: white;
+    color: #0477BF;
+    border: 2px solid #0477BF;
+}
+    
