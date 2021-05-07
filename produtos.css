@@ -23,15 +23,15 @@ h3 {
 
 .preco {
     font-size: 40px;
-    color: orange;
+    color: #F26513;
     font-weight: 600;
     margin-bottom: -20px;
     margin-top: -2px;
 }
 
 .botao {
-    background-color: #0477BF;
-    border: 2px solid #0477BF;
+    background-color: #5581D9;
+    border: 2px solid #5581D9;
     color: white;
     padding: 8px 18px;
     text-align: center;
@@ -43,8 +43,8 @@ h3 {
 
 .botao:hover {
     background: white;
-    color: #0477BF;
-    border: 2px solid #0477BF;
+    color: #5581D9;
+    border: 2px solid #5581D9;
 }
 
 .requisitos {

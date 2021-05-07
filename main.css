@@ -10,11 +10,11 @@ body {
 }
 
 h2 {
-  color: #F20519;
+  color: #1F1B1A;
 }
 
 h3 {
-  color: #F20519;
+  color: #1F1B1A;
 }
 
 p {
@@ -36,11 +36,11 @@ strong {
 }
     
 ::-webkit-scrollbar-thumb {
-  background: #D9303E; 
+  background: #F26513; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #940410; 
+  background: #D94625; 
 }
 
   /*-------------TOOLTIPS-------------*/
@@ -52,7 +52,7 @@ strong {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  background-color: black;
+  background-color: #353C40;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -62,6 +62,7 @@ strong {
   top: 100%;
   left: -10%;
   margin-left: 0px;
+  width: 200px;
 }
 
 .tooltip:hover .tooltiptext {

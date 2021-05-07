@@ -1,8 +1,8 @@
 /*-------------QUIZ-------------*/
 .quiz {
-    width: 800px;
     padding: 10px;
     margin: auto;
+    max-width: 65%;
 }
 
 .campoquiz {
@@ -12,7 +12,7 @@
 
 .pergunta {
     font-weight: bold;
-    color: #0477BF;
+    color: #5581D9;
 }
 
 li {
@@ -44,7 +44,7 @@ textarea {
 }
 
 .campo select:focus, .campo textarea:focus, .campo input[type="text"] {
-    background: #f7c7c7;
+    background: #faeee1;
 }
 
 button {
@@ -52,8 +52,8 @@ button {
 }
 
 .botao {
-    background-color: #0477BF;
-    border: 2px solid #0477BF;
+    background-color: #5581D9;
+    border: 2px solid #5581D9;
     color: white;
     padding: 8px 18px;
     text-align: center;
@@ -65,7 +65,7 @@ button {
 
 .botao:hover {
     background: white;
-    color: #0477BF;
-    border: 2px solid #0477BF;
+    color: #5581D9;
+    border: 2px solid #5581D9;
 }
     
