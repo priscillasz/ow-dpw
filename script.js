@@ -55,7 +55,7 @@ function showSlides() {
 // img1
 function setNewImg()
 {
-    document.getElementById("img1").src ="imagens/257476_iw8p8eC4.png"
+    document.getElementById("img1").src ="imagens/owl-hover.jpg"
 }
 
 function setOldImg()
@@ -66,7 +66,7 @@ function setOldImg()
 // img2
 function setNewImg2()
 {
-    document.getElementById("img2").src ="imagens/download20200800154907.png"
+    document.getElementById("img2").src ="imagens/tracer-hover.jpg"
 }
 
 function setOldImg2()
@@ -77,7 +77,7 @@ function setOldImg2()
 // img3
 function setNewImg3()
 {
-    document.getElementById("img3").src ="imagens/download20200802020610.png"
+    document.getElementById("img3").src ="imagens/lofi-hover.jpg"
 }
 
 function setOldImg3()
@@ -88,10 +88,10 @@ function setOldImg3()
 // img4
 function setNewImg4()
 {
-    document.getElementById("img4").src ="imagens/download20210402233046.png"
+    document.getElementById("img4").src ="imagens/skill-hover.jpg"
 }
 
 function setOldImg4()
 {
-    document.getElementById("img4").src ="imagens/gameplay2.jpg"
+    document.getElementById("img4").src ="imagens/skill.jpg"
 }

@@ -37,8 +37,8 @@ img {
 
 .botao {
   border-radius: 20px;
-  background-color: #0477BF;
-  border: 2px solid #0477BF;
+  background-color: #5581D9;
+  border: 2px solid #5581D9;
   color: white;
   padding: 8px 18px;
   text-align: center;
@@ -50,8 +50,8 @@ img {
 
 .botao:hover {
   background: white;
-  color: #0477BF;
-  border: 2px solid #0477BF;
+  color: #5581D9;
+  border: 2px solid #5581D9;
 }
 
 @media screen and (max-width: 992px) {
