@@ -2,12 +2,11 @@
 .quiz {
     padding: 10px;
     margin: auto;
-    max-width: 65%;
+    max-width: 70%;
 }
 
 .campoquiz {
     justify-content: center;
-    margin-left: 10%;
 }
 
 .pergunta {

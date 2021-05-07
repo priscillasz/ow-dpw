@@ -54,6 +54,17 @@ img {
   border: 2px solid #5581D9;
 }
 
+.footer {
+  padding-bottom: 5%;
+  padding-top: 3%;
+}
+
+.footer-item {
+  margin-bottom: -2%;
+}
+
+  /*----MEDIA QUERIES----*/
+
 @media screen and (max-width: 992px) {
   .column {
     flex: 50%;

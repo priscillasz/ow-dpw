@@ -42,7 +42,7 @@ h3 {
 }
 
 .botao:hover {
-    background: white;
+    background: transparent;
     color: #5581D9;
     border: 2px solid #5581D9;
 }
@@ -73,6 +73,17 @@ img {
     max-width: 100%;
 }
 
+/* footer */
+.footer {
+    padding-bottom: 5%;
+    padding-top: 3%;
+  }
+
+.footer-item {
+    margin-bottom: -2%;
+}
+
+    /*----MEDIA QUERIES----*/
 @media screen and (max-width: 992px) {
     .column {
         flex: 50%;
