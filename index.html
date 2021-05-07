@@ -8,39 +8,59 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="css/index.css">
+
 </head>
 <body>
     <!--MENU DE NAVEGAÇÃO-->
     <nav class="navbar">
         <div>
-            <a href="#">
+            <a href="index.html" target="_self">
                 <img class="logo" src="imagens/ow_logo.png" alt="Logo Overwatch">
             </a>
         </div>
         <ul class="navlinks">
             <li class="list-item"><a href="index.html" target="_self">Overwatch Store</a></li>
+            <li class="list-item"><a href="produtos.html" target="_self">Produtos</a></li>
             <li class="list-item"><a href="origem.html" target="_self">Origem</a></li>
             <li class="list-item"><a href="quiz.html" target="_self">Quiz</a></li>
             <li class="list-item"><a href="referencias.html" target="_self">Referências</a></li>
         </ul>
     </nav>
 
-    <div class="index">
-    <h2 class="sobre">Sobre o site</h2>
-    <p class="sobrep">Se você gosta de jogos de FPS, veio ao lugar certo. Nossa loja virtual foi criada com o intuito de vender os jogos da franquia Overwatch. Procuramos mostrar um breve resumo da história do jogo e de como funciona a sua jogabilidade.</p>
-    
-    <section>
-        <p>Dias para o evento: </p>
-        <p id="evento"></p>
-    </section>
-
-    <!-- <img class="imgdcm" src="imagens/album7_dont_call_me.jpg" alt="Capa do álbum Don't Call Me"> -->
-    <p>Nosso destaque atual é o álbum mais recente do SHINee, intitulado “Don’t Call Me”. Lançado em 22 de fevereiro de 2021, após um hiatus de 3 anos, o 7° álbum do grupo traz suas verdadeiras cores de maneira forte e impactante.</p>
-
-    <p>Com nove faixas novas, SHINee nos mostra mais uma vez que está sempre inovando sua performance e conceito. </p>
-
-    <p>Custando R$97,00 mais taxas de entrega, o álbum possui duas versões diferentes: A versão <em>Fake Reality</em> e a versão <em>Reality</em>. Cada uma das versões possui um CD, photobook e vários outros itens. Para mais detalhes sobre o álbum, sua composição e produção, <a href="origem.html#produtos">clique aqui</a>.   
+    <div class="loja">
+        <p class="sobrep">Se você gosta de jogos de FPS, veio ao lugar certo. Aqui você poderá comprar um dos melhores jogos multiplayer já criados, além de conhecer mais sobre sua história!</p>
+        <!-- <img src="imagens/cities2.jpg" alt="exemplo"> -->
     </div>
+
+    <!--BANNER 1-->
+    <div class="buynow">
+        <div class="bn-text">
+            <h1 style="font-size:40px">Comece a sua missão</h1>
+            <p>Lute pelo futuro no jogo de tiro em equipe mais incrível que existe.</p>
+            <a href="produtos.html" target="_self"><button class="botao">Comprar agora</button></a>
+        </div>
+    </div>
+    
+    <!--BANNER 2-->
+    <div class="hero-image">
+        <div class="hero-text">
+          <h1 style="font-size:40px">Heróis extraordinários. Momentos épicos. Apenas Overwatch.</h1>
+          <!-- <p>Heróis extraordinários. Momentos épicos. Apenas Overwatch.</p> -->
+          <!-- <button>Hire me</button> -->
+        </div>
+    </div>
+   
+    <!--BANNER COUNTDOWN-->
+    <div class="event">
+        <div class="event-text">
+          <h1 style="font-size:40px">Overwatch Anniversary começa em:</h1>
+          <p id="evento"></p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Priscilla Souza, 2021</p>
+    </footer>
 
     <script type="text/javascript" src="script.js"></script>
 </body>

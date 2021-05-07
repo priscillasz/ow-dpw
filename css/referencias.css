@@ -1,22 +1,28 @@
-/*REFERENCIAS*/
-
+/*-----------REFERENCIAS-----------*/
 main {
-    box-sizing: border-box;
-    text-align: justify;
-    font-size: 20px;
+  box-sizing: border-box;
+  text-align: justify;
+  font-size: 20px;
+  max-width: 90%;
+  margin: auto;
 }
 
 h2, p {
   padding: 10px;
 }
-  /* Container for flexboxes */
+
+h2 {
+  margin-bottom: -5px;
+}
+
+  /* Container */
 section
 {
     display: flex;
     flex-wrap: wrap;
 }
-  
-  /* Create four equal columns */
+
+  /* Colunas */
 .column 
 {
     flex: 25%;
@@ -28,14 +34,36 @@ img {
     width: 100%;
     max-width: 100%;
 }
-/* On screens that are 992px wide or less, go from four columns to two columns */
+
+.botao {
+  border-radius: 20px;
+  background-color: #0477BF;
+  border: 2px solid #0477BF;
+  color: white;
+  padding: 8px 18px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background: white;
+  color: #0477BF;
+  border: 2px solid #0477BF;
+}
+
 @media screen and (max-width: 992px) {
   .column {
     flex: 50%;
   }
+
+  main {
+    max-width: 100%;
+  }
 }
   
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .row {
     flex-direction: column;

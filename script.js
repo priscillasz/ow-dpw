@@ -1,6 +1,6 @@
 /*-----CONTAGEM ATE A DATA DE UM EVENTO-----*/
 // Define a data do evento
-var countDownDate = new Date("Aug 2, 2021 12:00:00").getTime();
+var countDownDate = new Date("May 27, 2021 12:00:00").getTime();
 
 // Update do countdown a cada 1 segundo
 var x = setInterval(function() {
