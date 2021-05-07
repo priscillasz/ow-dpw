@@ -1,3 +1,13 @@
+/*-----MUDAR O BACKGROUND A CADA 10 DIAS-----*/
+var dia = new Date().getDate();
+if (dia <= 10) {
+    document.body.style.backgroundColor="#F2F2F2";
+} else if (dia <= 20) {
+    document.body.style.backgroundColor="#E0E9E8";
+} else {
+    document.body.style.backgroundColor="#E0EEF7";
+}
+
 /*-----CONTAGEM ATE A DATA DE UM EVENTO-----*/
 // Define a data do evento
 var countDownDate = new Date("May 27, 2021 12:00:00").getTime();

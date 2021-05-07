@@ -12,7 +12,7 @@
 
 .pergunta {
     font-weight: bold;
-    color: #5581D9;
+    color: #F2A922;
 }
 
 li {
@@ -44,7 +44,7 @@ textarea {
 }
 
 .campo select:focus, .campo textarea:focus, .campo input[type="text"] {
-    background: #faeee1;
+    background: #D8E6F2;
 }
 
 button {
@@ -64,7 +64,7 @@ button {
 }
 
 .botao:hover {
-    background: white;
+    background: transparent;
     color: #5581D9;
     border: 2px solid #5581D9;
 }
