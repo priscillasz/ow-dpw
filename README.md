@@ -1,5 +1,5 @@
 # Trabalho final de DPW 💻
-Trabalho final da disciplina de Desenvolvimento de páginas WEB.
+Trabalho final da disciplina de Desenvolvimento de Páginas WEB da UNIRIO.
 ## Objetivo
 Criar um site responsivo para uma loja online que vende determinado produto.  
 ## Conteúdo
