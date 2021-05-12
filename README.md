@@ -1,4 +1,4 @@
-# Trabalho final de DPW 👾
+# Trabalho final de DPW 💻
 Trabalho final da disciplina de Desenvolvimento de páginas WEB.
 ## Objetivo
 Criar um site responsivo para uma loja online que vende determinado produto.  
