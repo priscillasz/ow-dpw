@@ -12,18 +12,23 @@
 <body>
     <!--MENU DE NAVEGAÇÃO-->
     <nav class="navbar">
-        <div>
+        <div class="div-icon">
             <a href="index.html" target="_self">
                 <img class="logo" src="imagens/ow_logo.png" alt="Logo Overwatch">
             </a>
         </div>
-        <ul class="navlinks">
+        <ul class="navlinks" id="navlist" style="background-color: #353C40;">
             <li class="list-item"><a href="index.html" target="_self">Overwatch Store</a></li>
             <li class="list-item"><a href="produtos.html" target="_self">Produtos</a></li>
             <li class="list-item"><a href="origem.html" target="_self">Origem</a></li>
             <li class="list-item"><a href="quiz.html" target="_self">Quiz</a></li>
             <li class="list-item"><a href="referencias.html" target="_self">Referências</a></li>
         </ul>
+        <div class="menu" id="toggle-button">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
     </nav>
     
     <!--MENU COM LINKS INTERNOS-->
@@ -222,5 +227,6 @@
     
     <!--JAVASCRIPT-->
     <script src="script.js"></script>
+    <script src="navbar.js"></script>
 </body>
 </html>

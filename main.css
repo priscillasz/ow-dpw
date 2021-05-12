@@ -31,7 +31,7 @@ strong {
 }
     
 ::-webkit-scrollbar-track {
-  background-color: #F8F8F8;
+  background-color: transparent;
 }
     
 ::-webkit-scrollbar-thumb {
@@ -122,6 +122,18 @@ nav {
   color: white;
 }
 
+/* menu pequeno*/
+.menu-line {
+  width: 20px;
+  height: 4px;
+  background-color: white;
+  margin-bottom: 4px;
+}
+
+.menu {
+  display: none;
+}
+
 @media all and (max-width: 560px) {
   nav {
     position: unset;
@@ -141,10 +153,30 @@ nav {
       width: 100%; 
       text-align: center;
       padding-left: 0;
+      margin-bottom: 0;
+      display: none;
   }
 
   .logo {
-      padding-top: 12px;
+     padding-top: 12px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 22px;
+    width: 25px;
+  }
+
+  .div-icon {
+    width: 100%;
+  }
+
+  .active {
+    display: block;
   }
 }
 
