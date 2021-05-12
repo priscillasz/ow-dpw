@@ -1,6 +1,4 @@
     /*-------------INDEX-------------*/
-
-
 .botao {
     background-color: transparent;
     border: 2px solid white;
@@ -17,6 +15,10 @@
     background:#F2A922;
     color: white;
     border: 2px solid #F2A922;
+}
+
+.tooltip {
+    border-bottom: 1px dotted white;
 }
 
 /*--BANNER--*/
