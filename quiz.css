@@ -39,7 +39,7 @@ input, select, textarea, .campo input[type="text"] {
 }
 
 textarea {
-    width: 320px;
+    width: 300px;
 }
 
 .campo select:focus, .campo textarea:focus, .campo input[type="text"] {
@@ -67,4 +67,3 @@ button {
     color: #5581D9;
     border: 2px solid #5581D9;
 }
-    

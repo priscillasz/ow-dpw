@@ -12,10 +12,31 @@
 }
 
 .a {
-    width: 400px;
+    width: 300px;
     border: 1px solid #C8C8C8;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+  /*---LINKS---*/
+a:link {
+    color: #5990D9;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #5581D9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D94625; 
+    text-decoration: none; 
+}
+
+a:active {
+    color: #F26513; 
+    text-decoration: none; 
 }
 
 #sobre {
@@ -38,6 +59,11 @@ img {
     font-size: 23px;
 }
 
+.table-div {
+    overflow-x:auto;
+  }
+
+  
 table {
     width: 70%;
     border-spacing: 5px;

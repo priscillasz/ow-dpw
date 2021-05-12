@@ -34,7 +34,6 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
 }
 
 .hero-text {
@@ -50,15 +49,14 @@ body, html {
     .hero-text {
         transform: translate(-73%, -50%);
     }
-
-    .loja {
-        flex-direction: column;
-    }
 }
 
-@media all and (max-width: 380px) {
+@media all and (max-width: 490px) {
+    .hero-image {
+        background-image: url("imagens/banner1_2.jpg");
+    }
     .hero-text {
-        transform: translate(-50%, -50%);
+        transform: translate(-55%, -50%);
     }
 }
 
@@ -81,6 +79,11 @@ body, html {
     color: white;
 }
 
+@media all and (max-width: 490px) {
+    .sobre-site {
+        height: 65%;
+    }
+}
     /*----BANNER COMPRE AGORA----*/
 .buynow {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imagens/1820127.jpg");
